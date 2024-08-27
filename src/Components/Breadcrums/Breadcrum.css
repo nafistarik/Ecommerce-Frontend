@@ -1,0 +1,26 @@
+.breadcrum {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* Increased gap for better spacing */
+  color: #6c757d; /* Changed color to a lighter shade */
+  font-size: 18px; /* Increased font size for better readability */
+  font-weight: 500; /* Adjusted font weight */
+  margin: 40px auto; /* Centered the breadcrumb with automatic margins */
+  max-width: 1200px; /* Limiting the maximum width for large screens */
+  padding: 0 20px; /* Added padding for better spacing */
+  text-transform: capitalize;
+  background-color: #f8f9fa; /* Added a light background for contrast */
+  border-radius: 8px; /* Added rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added subtle shadow for depth */
+}
+
+.breadcrum span {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb-arrow {
+  width: 9px; /* Adjusted arrow size */
+  height: auto; /* Maintain aspect ratio */
+  filter: grayscale(50%); /* Added grayscale effect */
+}

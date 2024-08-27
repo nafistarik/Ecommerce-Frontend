@@ -1,0 +1,116 @@
+.hero {
+  min-height: 90vh;
+  background: linear-gradient(180deg, #f2f2f2, #ffffff 60%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px; /* Add padding for small screens */
+  margin-bottom: 100px;
+}
+
+.hero-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; /* Increase gap between elements */
+  padding: 70px; /* Add padding to container */
+  text-align: center; /* Align text to the left for larger screens */
+}
+
+.hero-left h2 {
+  color: #333;
+  font-size: 38px; /* Adjust font size for responsiveness */
+  font-weight: 700;
+}
+
+.hero-description {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.hero-description p {
+  color: #555;
+  font-size: 30px; /* Adjust font size for responsiveness */
+  font-weight: 500;
+}
+
+.hero-hand-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-hand-icon img {
+  width: 40px;
+}
+
+.hero-latest-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px 50px;
+  border-radius: 50px;
+  background: #ff4141;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  margin-top: 10px; /* Add margin for spacing */
+}
+
+.hero-latest-btn:hover {
+  background: #e02a2a;
+  transform: scale(1.05);
+}
+
+.hero-latest-btn .btn-arrow {
+  width: 25px;
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.hero-right img {
+  width: 100%;
+  max-width: 500px; /* Limit max-width for responsiveness */
+  height: auto;
+}
+
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+  .hero {
+    height: auto; /* Allow the height to be dynamic */
+    flex-direction: column;
+  }
+
+  .hero-left {
+    text-align: center; /* Center text for smaller screens */
+    padding: 20px;
+  }
+
+  .hero-right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-right img {
+    max-width: 100%; /* Ensure image fits within the container */
+  }
+
+  .hero-description p {
+    font-size: 18px; /* Adjust font size for mobile */
+  }
+}
