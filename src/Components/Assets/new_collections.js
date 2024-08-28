@@ -10,7 +10,7 @@ import p8_img from "./product_8.png";
 let new_collections = [
   {
     id: 12,
-    name: "Cozy Sports Sweater",
+    name: "Cozy Women's Sportswear Sweater for Outdoor Activities",
     category: "women",
     image: p12_img,
     new_price: 75.0,
@@ -18,15 +18,15 @@ let new_collections = [
   },
   {
     id: 35,
-    name: "Sports Tracksuit",
+    name: "Elegant Kid's Long Wool Coat for Special Events",
     category: "kid",
     image: p35_img,
-    new_price: 50.0,
-    old_price: 85.5,
+    new_price: 95.0,
+    old_price: 125.0,
   },
   {
     id: 14,
-    name: "Checkered Shirt",
+    name: "Men's Checkered Button-Down Shirt for a Stylish Look",
     category: "men",
     image: p14_img,
     new_price: 70.0,
@@ -34,7 +34,7 @@ let new_collections = [
   },
   {
     id: 8,
-    name: "Comfort Nightwear Set",
+    name: "Comfortable Women's Nightwear Set",
     category: "women",
     image: p8_img,
     new_price: 45.0,
@@ -42,7 +42,7 @@ let new_collections = [
   },
   {
     id: 15,
-    name: "Traditional Panjabi",
+    name: "Traditional Men's Panjabi with Intricate Embroidery",
     category: "men",
     image: p15_img,
     new_price: 75.0,
@@ -50,7 +50,7 @@ let new_collections = [
   },
   {
     id: 2,
-    name: "Chic Peasant Dress",
+    name: "Boho Chic Women's Peasant Maxi Dress",
     category: "women",
     image: p2_img,
     new_price: 75.0,
@@ -58,7 +58,7 @@ let new_collections = [
   },
   {
     id: 17,
-    name: "Formal Trousers",
+    name: "Men's Tailored Formal Trousers for Professional Wear",
     category: "men",
     image: p17_img,
     new_price: 80.0,
@@ -66,12 +66,13 @@ let new_collections = [
   },
   {
     id: 28,
-    name: "Short Three Piece",
+    name: "Smart Kid's Three-Piece Suit for Formal Occasions",
     category: "kid",
     image: p28_img,
     new_price: 50.0,
     old_price: 85.5,
   },
 ];
+
 
 export default new_collections;

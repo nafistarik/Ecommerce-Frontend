@@ -8,7 +8,7 @@ const Hero = () => {
   const navigate = useNavigate(); // Initialize useNavigate
 
   const handleDiscoverNowClick = () => {
-    navigate("/womens"); // Navigate to /women route
+    navigate("/mens"); // Navigate to /women route
   };
 
   return (

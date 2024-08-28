@@ -38,7 +38,7 @@ import p9_img from "./product_9.png";
 let all_product = [
   {
     id: 1,
-    name: "Elegant Three-Piece Suit",
+    name: "Elegant Women's Three-Piece Formal Suit Set",
     category: "women",
     image: p1_img,
     new_price: 50.0,
@@ -46,7 +46,7 @@ let all_product = [
   },
   {
     id: 2,
-    name: "Chic Peasant Dress",
+    name: "Boho Chic Women's Peasant Frock Dress",
     category: "women",
     image: p2_img,
     new_price: 75.0,
@@ -54,7 +54,7 @@ let all_product = [
   },
   {
     id: 3,
-    name: "Casual Classic T-Shirt",
+    name: "Classic Women's Cotton T-Shirt for Everyday Comfort",
     category: "women",
     image: p3_img,
     new_price: 40.0,
@@ -62,7 +62,7 @@ let all_product = [
   },
   {
     id: 4,
-    name: "Trendy Button-Up Shirt",
+    name: "Trendy Women's Casual Button-Up Shirt",
     category: "women",
     image: p4_img,
     new_price: 65.0,
@@ -70,7 +70,7 @@ let all_product = [
   },
   {
     id: 5,
-    name: "Stylish Skinny Jeans",
+    name: "Stylish Women's High-Waist Skinny Jeans",
     category: "women",
     image: p5_img,
     new_price: 60.0,
@@ -78,7 +78,7 @@ let all_product = [
   },
   {
     id: 6,
-    name: "Graceful Midi Skirt",
+    name: "Graceful Women's Pleated Midi Skirt",
     category: "women",
     image: p6_img,
     new_price: 55.0,
@@ -86,7 +86,7 @@ let all_product = [
   },
   {
     id: 7,
-    name: "Elegant Palazzos",
+    name: "Elegant Women's Wide-Leg Palazzo Pants",
     category: "women",
     image: p7_img,
     new_price: 70.0,
@@ -94,7 +94,7 @@ let all_product = [
   },
   {
     id: 8,
-    name: "Comfort Nightwear Set",
+    name: "Comfortable Women's Nightwear Set",
     category: "women",
     image: p8_img,
     new_price: 45.0,
@@ -102,7 +102,7 @@ let all_product = [
   },
   {
     id: 9,
-    name: "Sophisticated Long Coat",
+    name: "Sophisticated Women's Long Wool Coat",
     category: "women",
     image: p9_img,
     new_price: 120.0,
@@ -110,7 +110,7 @@ let all_product = [
   },
   {
     id: 10,
-    name: "Premium Leather Jacket",
+    name: "Premium Women's Genuine Leather Biker Jacket",
     category: "women",
     image: p10_img,
     new_price: 110.0,
@@ -118,7 +118,7 @@ let all_product = [
   },
   {
     id: 11,
-    name: "Denim Jacket",
+    name: "Classic Women's Denim Jacket for Casual Outfits",
     category: "women",
     image: p11_img,
     new_price: 90.0,
@@ -126,7 +126,7 @@ let all_product = [
   },
   {
     id: 12,
-    name: "Cozy Sports Sweater",
+    name: "Cozy Women's Sportswear Sweater for Outdoor Activities",
     category: "women",
     image: p12_img,
     new_price: 75.0,
@@ -134,7 +134,7 @@ let all_product = [
   },
   {
     id: 13,
-    name: "Men's Casual T-Shirt",
+    name: "Men's Casual Cotton T-Shirt for Everyday Wear",
     category: "men",
     image: p13_img,
     new_price: 55.0,
@@ -142,7 +142,7 @@ let all_product = [
   },
   {
     id: 14,
-    name: "Checkered Shirt",
+    name: "Men's Checkered Button-Down Shirt for a Stylish Look",
     category: "men",
     image: p14_img,
     new_price: 70.0,
@@ -150,7 +150,7 @@ let all_product = [
   },
   {
     id: 15,
-    name: "Traditional Panjabi",
+    name: "Traditional Men's Panjabi with Intricate Embroidery",
     category: "men",
     image: p15_img,
     new_price: 75.0,
@@ -158,7 +158,7 @@ let all_product = [
   },
   {
     id: 16,
-    name: "Solid Color Shirt",
+    name: "Solid Color Men's Dress Shirt for Formal Occasions",
     category: "men",
     image: p16_img,
     new_price: 60.0,
@@ -166,7 +166,7 @@ let all_product = [
   },
   {
     id: 17,
-    name: "Formal Trousers",
+    name: "Men's Tailored Formal Trousers for Professional Wear",
     category: "men",
     image: p17_img,
     new_price: 80.0,
@@ -174,7 +174,7 @@ let all_product = [
   },
   {
     id: 18,
-    name: "Tailored Trouser",
+    name: "Men's Tailored Fit Trousers for Business Casual",
     category: "men",
     image: p18_img,
     new_price: 75.0,
@@ -182,7 +182,7 @@ let all_product = [
   },
   {
     id: 19,
-    name: "Slim Fit Gavading Pants",
+    name: "Men's Slim Fit Gavading Pants for a Modern Look",
     category: "men",
     image: p19_img,
     new_price: 85.0,
@@ -190,7 +190,7 @@ let all_product = [
   },
   {
     id: 20,
-    name: "Classic Jeans",
+    name: "Classic Men's Blue Jeans for Timeless Style",
     category: "men",
     image: p20_img,
     new_price: 90.0,
@@ -198,7 +198,7 @@ let all_product = [
   },
   {
     id: 21,
-    name: "Basic Jacket",
+    name: "Basic Men's Jacket for Everyday Casual Wear",
     category: "men",
     image: p21_img,
     new_price: 100.0,
@@ -206,7 +206,7 @@ let all_product = [
   },
   {
     id: 22,
-    name: "Denim Jacket",
+    name: "Men's Stylish Denim Jacket for a Rugged Look",
     category: "men",
     image: p22_img,
     new_price: 95.0,
@@ -214,7 +214,7 @@ let all_product = [
   },
   {
     id: 23,
-    name: "Long Coat",
+    name: "Men's Long Wool Coat for Winter Elegance",
     category: "men",
     image: p23_img,
     new_price: 115.0,
@@ -222,7 +222,7 @@ let all_product = [
   },
   {
     id: 24,
-    name: "Leather Jacket",
+    name: "Men's Premium Leather Jacket for a Sleek Style",
     category: "men",
     image: p24_img,
     new_price: 125.0,
@@ -230,7 +230,7 @@ let all_product = [
   },
   {
     id: 25,
-    name: "Cute Kid's Frock",
+    name: "Adorable Kid's Frock for Playtime and Parties",
     category: "kid",
     image: p25_img,
     new_price: 40.0,
@@ -238,7 +238,7 @@ let all_product = [
   },
   {
     id: 26,
-    name: "Kids Jersey",
+    name: "Sporty Kid's Jersey for Active Days",
     category: "kid",
     image: p26_img,
     new_price: 55.0,
@@ -246,7 +246,7 @@ let all_product = [
   },
   {
     id: 27,
-    name: "Kid Arabian Thawb",
+    name: "Traditional Arabian Alkhalla Dress for Kids",
     category: "kid",
     image: p27_img,
     new_price: 65.0,
@@ -254,7 +254,7 @@ let all_product = [
   },
   {
     id: 28,
-    name: "Short Three Piece",
+    name: "Smart Kid's Three-Piece Suit for Formal Occasions",
     category: "kid",
     image: p28_img,
     new_price: 50.0,
@@ -262,7 +262,7 @@ let all_product = [
   },
   {
     id: 29,
-    name: "Kids' Jeans Trouser",
+    name: "Trendy Kid's Jeans for Everyday Comfort",
     category: "kid",
     image: p29_img,
     new_price: 45.0,
@@ -270,7 +270,7 @@ let all_product = [
   },
   {
     id: 30,
-    name: "Gavading Kid Pants",
+    name: "Comfortable Kid's Gavading Pants for Daily Wear",
     category: "kid",
     image: p30_img,
     new_price: 40.0,
@@ -278,53 +278,52 @@ let all_product = [
   },
   {
     id: 31,
-    name: "Denim Jumpsuit",
+    name: "Denim Kid's Jumpsuit for a Playful Look",
     category: "kid",
     image: p31_img,
-    new_price: 55.0,
-    old_price: 90.0,
-  },
-  {
-    id: 32,
-    name: "Colorful Kid's Pants",
-    category: "kid",
-    image: p32_img,
-    new_price: 35.0,
-    old_price: 65.5,
-  },
-  {
-    id: 33,
-    name: "Designer Kid's Coat",
-    category: "kid",
-    image: p33_img,
     new_price: 60.0,
     old_price: 95.0,
   },
   {
-    id: 34,
-    name: "Leather Jacket (Kid)",
+    id: 32,
+    name: "Charming Kid's Denim Jacket for Cool Days",
     category: "kid",
-    image: p34_img,
+    image: p32_img,
+    new_price: 55.0,
+    old_price: 85.0,
+  },
+  {
+    id: 33,
+    name: "Kid's Lightweight Windbreaker for Active Outdoor Fun",
+    category: "kid",
+    image: p33_img,
     new_price: 75.0,
     old_price: 110.0,
   },
   {
+    id: 34,
+    name: "Stylish Kid's Wool Coat for Cold Winter Days",
+    category: "kid",
+    image: p34_img,
+    new_price: 85.0,
+    old_price: 120.0,
+  },
+  {
     id: 35,
-    name: "Sports Tracksuit",
+    name: "Elegant Kid's Long Wool Coat for Special Events",
     category: "kid",
     image: p35_img,
-    new_price: 50.0,
-    old_price: 85.5,
+    new_price: 95.0,
+    old_price: 125.0,
   },
   {
     id: 36,
-    name: "Winter Sweater",
+    name: "Kid's Classic Leather Jacket for a Cool Look",
     category: "kid",
     image: p36_img,
-    new_price: 65.0,
-    old_price: 100.5,
+    new_price: 90.0,
+    old_price: 130.0,
   },
 ];
 
 export default all_product;
-

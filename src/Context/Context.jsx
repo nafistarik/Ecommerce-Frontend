@@ -30,6 +30,7 @@ const ShopContextProvider = (props) => {
 
   const addToCart = (itemId) => {
     setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));
+    window.scrollTo(0, 0);
   };
 
   const removeFromCart = (itemId) => {

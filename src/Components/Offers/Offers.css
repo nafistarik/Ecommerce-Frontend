@@ -40,13 +40,19 @@
 .offers-left button {
   border-radius: 30px;
   border: none;
-  padding: 15px 30px;
+  padding: 20px 35px;
   background: #ff4141;
   color: white;
   font-size: 18px; /* Adjusted for smaller screens */
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
   margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.offers-left button:hover {
+  background: #ff5b5b;
+  transform: scale(1.02);
 }
 
 .offers-right img {
